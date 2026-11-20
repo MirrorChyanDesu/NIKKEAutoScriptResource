@@ -1,17 +1,14 @@
 {
   "schema_version": 1,
-  "version": "2026.10.28.1",
-  "updated_at": "2026-10-28T00:52:13+0800",
+  "version": "2026.11.21.1",
+  "updated_at": "2026-11-21T00:16:53+0800",
   "components": {
     "maps": {
       "path": "maps",
-      "version": "2026.10.28.1",
-      "chapters": 48,
-      "layered_chapters": [
-        39,
-        40
-      ],
-      "description": "章节地图运行包，普通与困难共用底图；平面章节附道路概率缓存，分层章节附参考帧与局部表面标签"
+      "version": "2026.11.21.1",
+      "chapters": 50,
+      "layered_chapters": [],
+      "description": "章节地图运行包，普通与困难共用底图；附道路概率缓存和地图投影数据"
     }
   }
 }

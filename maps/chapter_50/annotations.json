@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "image": "map.png",
+  "image_sha256": "af559c5059e6ec03965508946db3cdd5f342eab8b3532f2bbc5fb0c090223713",
+  "coordinates": {
+    "unit": "pixel",
+    "origin": "top_left",
+    "x": "right",
+    "y": "down"
+  },
+  "objects": [
+    {
+      "id": "obj_c179a173d150",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          569.2,
+          226.4
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_56fdffbf69f4",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          883,
+          1555.8
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_579a0128bbbe",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          1034.2,
+          334
+        ],
+        [
+          1069.3,
+          398.2
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_c5b72704b41e",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          1177.9,
+          1160.8
+        ],
+        [
+          1108.3,
+          1199.8
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_356499171e33",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯1",
+      "points": [
+        [
+          1515.6,
+          501.3
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_cd0284ba03f2",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯2",
+      "points": [
+        [
+          1338.1,
+          809.8
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    }
+  ],
+  "connections": [
+    {
+      "id": "edge_c3fa706f4258",
+      "category": "elevator_connection",
+      "from": "obj_356499171e33",
+      "to": "obj_cd0284ba03f2",
+      "directed": false,
+      "label": "电梯传送关系",
+      "color": "#ffb454",
+      "note": ""
+    }
+  ]
+}

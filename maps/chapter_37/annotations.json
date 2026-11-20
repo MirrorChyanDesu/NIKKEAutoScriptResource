@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "image": "map.png",
-  "image_sha256": "ec40a5e4e8605d3f85e897c5875d45809dcaaee6994808c5b5c99926f862812d",
+  "image_sha256": "b98171a32827297436f3b21905b311bebf3c689de6977d0a2141706e3dd962fb",
   "coordinates": {
     "unit": "pixel",
     "origin": "top_left",
@@ -132,7 +132,7 @@
       "label": "困难收集物 05",
       "points": [
         [
-          1411.0,
+          1411,
           374.9
         ]
       ],
@@ -307,7 +307,7 @@
       "points": [
         [
           897.3,
-          1949.0
+          1949
         ]
       ],
       "color": "#ffd166",
@@ -423,7 +423,7 @@
       "points": [
         [
           606.4,
-          1104.0
+          1104
         ]
       ],
       "color": "#ffd166",
@@ -712,7 +712,7 @@
       "label": "普通收集物 13",
       "points": [
         [
-          1242.0,
+          1242,
           140.6
         ]
       ],
@@ -770,7 +770,7 @@
       "label": "普通收集物 14",
       "points": [
         [
-          763.0,
+          763,
           462.2
         ]
       ],
@@ -820,7 +820,72 @@
           1080
         ]
       }
+    },
+    {
+      "id": "obj_805d832c1672",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          104.5,
+          1167.6
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_cd6f713cd49d",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          2112.2,
+          1321.2
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_0d897a4a11c8",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          849.1,
+          1611.8
+        ],
+        [
+          902.3,
+          1675.2
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_787b59b2d817",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          1430.9,
+          1773.9
+        ],
+        [
+          1428.3,
+          1830.4
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [],
+  "terrain_edits": []
 }

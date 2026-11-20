@@ -132,7 +132,7 @@
       "label": "困难收集物 05",
       "points": [
         [
-          689.0,
+          689,
           68.4
         ]
       ],
@@ -307,7 +307,7 @@
       "points": [
         [
           474.1,
-          813.0
+          813
         ]
       ],
       "color": "#ffd166",
@@ -481,7 +481,7 @@
       "points": [
         [
           699.5,
-          231.0
+          231
         ]
       ],
       "color": "#ffd166",
@@ -647,6 +647,70 @@
           1080
         ]
       }
+    },
+    {
+      "id": "obj_74ca86c1ac57",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          86,
+          698.5
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_11f886b3acfa",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          693.4,
+          459.7
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_266a1d111bbd",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          1208.4,
+          790
+        ],
+        [
+          1118.1,
+          783
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_4858232ffc07",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          926.9,
+          352
+        ],
+        [
+          948.5,
+          301.2
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
     }
   ],
   "connections": []

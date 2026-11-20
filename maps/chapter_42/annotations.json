@@ -306,7 +306,7 @@
       "label": "普通收集物 01",
       "points": [
         [
-          1790.0,
+          1790,
           2287.5
         ]
       ],
@@ -422,7 +422,7 @@
       "label": "普通收集物 03",
       "points": [
         [
-          974.0,
+          974,
           2101.3
         ]
       ],
@@ -481,7 +481,7 @@
       "points": [
         [
           588.4,
-          1035.0
+          1035
         ]
       ],
       "color": "#ffd166",
@@ -820,7 +820,174 @@
           1080
         ]
       }
+    },
+    {
+      "id": "obj_495e7f9419e3",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          1165.9,
+          2225.5
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_9eb07314985e",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          1539,
+          1379.8
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_b983c6eb0a51",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关3",
+      "points": [
+        [
+          1210.3,
+          1269
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_bb5aa976f015",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关4",
+      "points": [
+        [
+          285.9,
+          1707.6
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_9d83ffccbc50",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          260,
+          1055.1
+        ],
+        [
+          344.8,
+          1100.8
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_c7b2a964856f",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          901.1,
+          1579.8
+        ],
+        [
+          861,
+          1654.5
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_6f1791f8d20f",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕3",
+      "points": [
+        [
+          1333.3,
+          1459.8
+        ],
+        [
+          1395.5,
+          1490.6
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_e6884b4b2653",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕4",
+      "points": [
+        [
+          1842.5,
+          1813.3
+        ],
+        [
+          1754.1,
+          1769.1
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_163ad180b0c0",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯1",
+      "points": [
+        [
+          657.4,
+          320.3
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_6173a54977c5",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯2",
+      "points": [
+        [
+          2194.1,
+          1208.1
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "id": "edge_406e8bf23f2f",
+      "category": "elevator_connection",
+      "from": "obj_6173a54977c5",
+      "to": "obj_163ad180b0c0",
+      "directed": false,
+      "label": "电梯传送关系",
+      "color": "#ffb454",
+      "note": ""
+    }
+  ]
 }

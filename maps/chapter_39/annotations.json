@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "image": "map.png",
-  "image_sha256": "ac62157268c450d60cbf68586e1bcbcb703ddb1dbf5b34b93b3aef2da6d198fc",
+  "image_sha256": "7222e53afb660e139961251a9d2d98c82aaff4a35667774c20b8e59252b41061",
   "coordinates": {
     "unit": "pixel",
     "origin": "top_left",
@@ -66,7 +66,47 @@
           1080
         ]
       }
+    },
+    {
+      "id": "obj_d82028443641",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯1",
+      "points": [
+        [
+          750.8,
+          231.6
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_6f9360abfccd",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯2",
+      "points": [
+        [
+          689.6,
+          1020.2
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "id": "edge_af5b453152b3",
+      "category": "elevator_connection",
+      "from": "obj_6f9360abfccd",
+      "to": "obj_d82028443641",
+      "directed": false,
+      "label": "电梯传送关系",
+      "color": "#ffb454",
+      "note": ""
+    }
+  ],
+  "terrain_edits": []
 }

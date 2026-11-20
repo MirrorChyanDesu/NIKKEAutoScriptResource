@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "image": "map.png",
+  "image_sha256": "e2d4b246e24e8df2c71bb11b5ab6cd2c641f4f319ed46fb239e19fbbec54de1d",
+  "coordinates": {
+    "unit": "pixel",
+    "origin": "top_left",
+    "x": "right",
+    "y": "down"
+  },
+  "objects": [
+    {
+      "id": "obj_f5852fcc1eae",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          1318.7,
+          1080.3
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_b7cd980a9f24",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          1083.7,
+          928.9
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_57df9bcc4c57",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          1501.9,
+          585.4
+        ],
+        [
+          1508.7,
+          669
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_0c503db891d0",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          152.1,
+          688.1
+        ],
+        [
+          213.4,
+          711.5
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    }
+  ],
+  "connections": []
+}

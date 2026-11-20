@@ -122,8 +122,137 @@
       ],
       "color": "#70dfa0",
       "note": ""
+    },
+    {
+      "id": "obj_c964bac7c194",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          629.2,
+          1221.8
+        ],
+        [
+          699.5,
+          1302.3
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_8b549a9300fd",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕3",
+      "points": [
+        [
+          1467.7,
+          1321.4
+        ],
+        [
+          1526,
+          1327.9
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_40517e4fe72a",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          1391.7,
+          1576.8
+        ],
+        [
+          1323.4,
+          1621.1
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_db1785c54151",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕4",
+      "points": [
+        [
+          2045.5,
+          940.3
+        ],
+        [
+          1942,
+          1023.7
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_cddd1202112c",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕5",
+      "points": [
+        [
+          1570.7,
+          641.9
+        ],
+        [
+          1635,
+          683
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_c2e92cf75834",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯1",
+      "points": [
+        [
+          1895.4,
+          461.7
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_1510b2f68b7f",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯2",
+      "points": [
+        [
+          1109.7,
+          1802.6
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
     }
   ],
-  "connections": [],
+  "connections": [
+    {
+      "id": "edge_746cb6023291",
+      "category": "elevator_connection",
+      "from": "obj_1510b2f68b7f",
+      "to": "obj_c2e92cf75834",
+      "directed": false,
+      "label": "电梯传送关系",
+      "color": "#ffb454",
+      "note": ""
+    }
+  ],
   "terrain_edits": []
 }
