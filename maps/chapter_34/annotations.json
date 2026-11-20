@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "image": "map.png",
-  "image_sha256": "4062160f4fbbeb029de25b2274fdb5861140eef7ca0de18c10814ab1de82de53",
+  "image_sha256": "d35f9ad9891840c680e68bbc0410a17ce8d3919a040bf3e7d1516b787def122b",
   "coordinates": {
     "unit": "pixel",
     "origin": "top_left",
@@ -597,7 +597,7 @@
       "points": [
         [
           1946.9,
-          1487.0
+          1487
         ]
       ],
       "color": "#ffd166",
@@ -712,7 +712,7 @@
       "label": "普通收集物 15",
       "points": [
         [
-          1639.0,
+          1639,
           1675.1
         ]
       ],
@@ -762,7 +762,72 @@
           1080
         ]
       }
+    },
+    {
+      "id": "obj_ef5718afdc48",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          987.4,
+          1666.3
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_86c670728a65",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          930.3,
+          264
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_bac698a90be1",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          1400.1,
+          1613.1
+        ],
+        [
+          1453.3,
+          1571.4
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_0c6efa0dac9f",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          841.8,
+          1375.7
+        ],
+        [
+          899.7,
+          1340.1
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [],
+  "terrain_edits": []
 }

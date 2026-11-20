@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "image": "map.png",
-  "image_sha256": "ed478e5d8c7756761990697cad2a748e495982c783618afb4b389e7351c579eb",
+  "image_sha256": "aa72fed95886dec89cc0908c80128a52d4647372e2082a77f0ecd545cf6697c1",
   "coordinates": {
     "unit": "pixel",
     "origin": "top_left",
@@ -66,7 +66,64 @@
           1080
         ]
       }
+    },
+    {
+      "id": "obj_8c7f29891b3f",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          418.6,
+          1756.3
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_56ad79e8208e",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          1134.4,
+          2150.7
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_08336762678c",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关3",
+      "points": [
+        [
+          1765.4,
+          1625.3
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_e0580670bf5b",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关4",
+      "points": [
+        [
+          955.7,
+          501
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [],
+  "terrain_edits": []
 }

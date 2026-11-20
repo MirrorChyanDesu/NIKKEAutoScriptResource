@@ -16,7 +16,7 @@
       "label": "困难收集物 01",
       "points": [
         [
-          1020.0,
+          1020,
           1010.3
         ]
       ],
@@ -191,7 +191,7 @@
       "points": [
         [
           532.2,
-          572.0
+          572
         ]
       ],
       "color": "#c792ea",
@@ -706,6 +706,134 @@
           1080
         ]
       }
+    },
+    {
+      "id": "obj_ece64ebc80a8",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          81.1,
+          916.7
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_9a791d6395d2",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          719.1,
+          848.7
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_504c444525d1",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关3",
+      "points": [
+        [
+          424.1,
+          123.9
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_ed35ec7aa4df",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关4",
+      "points": [
+        [
+          1591.3,
+          286.8
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_47a44145c5b2",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          445.9,
+          690.6
+        ],
+        [
+          453.9,
+          639.8
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_1e3a82c50604",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          565.8,
+          396.5
+        ],
+        [
+          634.2,
+          406.7
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_d982942c1dd8",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕3",
+      "points": [
+        [
+          1027.8,
+          914.8
+        ],
+        [
+          1019.4,
+          981
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_2bb238b770cd",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕4",
+      "points": [
+        [
+          1118.6,
+          252.1
+        ],
+        [
+          1064,
+          296
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
     }
   ],
   "connections": []

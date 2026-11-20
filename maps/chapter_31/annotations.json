@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "image": "map.png",
-  "image_sha256": "6cb4c1c773acd5f41ec2a290cb4cad7071cefb77030a5d39cebbe55ed848dde3",
+  "image_sha256": "397a39ff27ed248186bf8b8929191ee7284d6c0916240a0ce2ca07c88502e3a6",
   "coordinates": {
     "unit": "pixel",
     "origin": "top_left",
@@ -242,7 +242,104 @@
         ],
         "screenshot_layout": "cropped_minimap"
       }
+    },
+    {
+      "id": "obj_b2afc9d03147",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          1094.3,
+          1619.6
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_4573d601e724",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          1198.7,
+          777
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_357b1c7f9b45",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关3",
+      "points": [
+        [
+          1302.7,
+          169.7
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_166f105feee1",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          1036,
+          1394.2
+        ],
+        [
+          1001.4,
+          1324.9
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_ffe15f4cf7c2",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          1497.1,
+          514.2
+        ],
+        [
+          1584.6,
+          476.9
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_bab9a98fa843",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕3",
+      "points": [
+        [
+          1181.2,
+          374.6
+        ],
+        [
+          1114.2,
+          408.3
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [],
+  "terrain_edits": []
 }

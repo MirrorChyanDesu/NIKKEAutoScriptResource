@@ -477,7 +477,148 @@
         ],
         "screenshot_layout": "cropped_minimap"
       }
+    },
+    {
+      "id": "obj_9f4465984f5c",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯1",
+      "points": [
+        [
+          165.2,
+          991.4
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_a910eb3110e5",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯2",
+      "points": [
+        [
+          984,
+          1526.8
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_0c9d77211411",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯3",
+      "points": [
+        [
+          1502.4,
+          1827.3
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_80c876d394b1",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯4",
+      "points": [
+        [
+          352.9,
+          625.4
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_482e8c1254ae",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          1297.4,
+          1578
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_e323ecad35de",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          808.7,
+          411.6
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_ff4a82c0ce52",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          1078.6,
+          1422.9
+        ],
+        [
+          1120.9,
+          1551.5
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_c2d8c2955054",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          1300.4,
+          680.6
+        ],
+        [
+          1276.3,
+          785.1
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "id": "edge_cf6b5597a313",
+      "category": "elevator_connection",
+      "from": "obj_9f4465984f5c",
+      "to": "obj_0c9d77211411",
+      "directed": false,
+      "label": "电梯传送关系",
+      "color": "#ffb454",
+      "note": ""
+    },
+    {
+      "id": "edge_6b25b1ddd3eb",
+      "category": "elevator_connection",
+      "from": "obj_80c876d394b1",
+      "to": "obj_a910eb3110e5",
+      "directed": false,
+      "label": "电梯传送关系",
+      "color": "#ffb454",
+      "note": ""
+    }
+  ]
 }

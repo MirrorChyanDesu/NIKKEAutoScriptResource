@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "image": "map.png",
-  "image_sha256": "12618d90c407c0fd10f5abc81c0d9d6b926c48203a028851055af566b9d16821",
+  "image_sha256": "0733ebedcd928158624cc01692bae8c12f7fa7ad025b92544784dd7c68257717",
   "coordinates": {
     "unit": "pixel",
     "origin": "top_left",
@@ -249,7 +249,7 @@
       "label": "普通收集物 03",
       "points": [
         [
-          1583.0,
+          1583,
           1153.1
         ]
       ],
@@ -418,7 +418,194 @@
         ],
         "screenshot_layout": "cropped_minimap"
       }
+    },
+    {
+      "id": "obj_3392a2517be3",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          1706.6,
+          1069.7
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_e404d28b8eec",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          1334.2,
+          396.3
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_0a2540ce1e9e",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关3",
+      "points": [
+        [
+          795.3,
+          213.9
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_b8a352d3c71b",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          486.4,
+          353.7
+        ],
+        [
+          441.4,
+          342.8
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_edc3592488c1",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          909.5,
+          1022.9
+        ],
+        [
+          868.1,
+          962.1
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_a1899eb15625",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕3",
+      "points": [
+        [
+          982.4,
+          1135.1
+        ],
+        [
+          1031,
+          1205.3
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_5c0533675593",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕4",
+      "points": [
+        [
+          1048.5,
+          1092
+        ],
+        [
+          1094.6,
+          1160.2
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_007d96104dad",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕5",
+      "points": [
+        [
+          1643,
+          881.9
+        ],
+        [
+          1623.2,
+          968.6
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_9bf7e35c35b8",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕6",
+      "points": [
+        [
+          1616.8,
+          1003.5
+        ],
+        [
+          1596.5,
+          1081
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_e1b103fc2dba",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕7",
+      "points": [
+        [
+          1334.6,
+          699.1
+        ],
+        [
+          1411.3,
+          714.6
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_bad87094fdea",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕8",
+      "points": [
+        [
+          1157.3,
+          571
+        ],
+        [
+          1136.2,
+          648.6
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [],
+  "terrain_edits": []
 }

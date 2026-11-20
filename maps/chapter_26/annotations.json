@@ -16,7 +16,7 @@
       "label": "困难收集物 01",
       "points": [
         [
-          2180.0,
+          2180,
           2084.3
         ]
       ],
@@ -75,7 +75,7 @@
       "points": [
         [
           1265.1,
-          2672.0
+          2672
         ]
       ],
       "color": "#ffd166",
@@ -184,7 +184,110 @@
         ],
         "screenshot_layout": "cropped_minimap"
       }
+    },
+    {
+      "id": "obj_988450b23c47",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯1",
+      "points": [
+        [
+          158.2,
+          1641.4
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_d1b8c331b6e3",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关1",
+      "points": [
+        [
+          1552.7,
+          408.5
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_8dcbb31d5653",
+      "type": "point",
+      "category": "ground_mechanism",
+      "label": "地面机关2",
+      "points": [
+        [
+          2254.8,
+          140.6
+        ]
+      ],
+      "color": "#70dfa0",
+      "note": ""
+    },
+    {
+      "id": "obj_e5bcaf1aea63",
+      "type": "point",
+      "category": "ground_elevator",
+      "label": "地面电梯2",
+      "points": [
+        [
+          2318.2,
+          1486.8
+        ]
+      ],
+      "color": "#6ccfff",
+      "note": ""
+    },
+    {
+      "id": "obj_055a98976264",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕2",
+      "points": [
+        [
+          2341.9,
+          743.5
+        ],
+        [
+          2295.7,
+          646.2
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
+    },
+    {
+      "id": "obj_acddbd2448fb",
+      "type": "polyline",
+      "category": "ground_barrier",
+      "label": "光幕1",
+      "points": [
+        [
+          1596.7,
+          1138.3
+        ],
+        [
+          1710.7,
+          1274.9
+        ]
+      ],
+      "color": "#ff7e8b",
+      "note": ""
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "id": "edge_871da8d615da",
+      "category": "elevator_connection",
+      "from": "obj_e5bcaf1aea63",
+      "to": "obj_988450b23c47",
+      "directed": false,
+      "label": "电梯传送关系",
+      "color": "#ffb454",
+      "note": ""
+    }
+  ]
 }
