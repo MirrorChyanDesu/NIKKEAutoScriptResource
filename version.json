@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "2026.11.21.1",
-  "updated_at": "2026-11-21T00:16:53+0800",
+  "version": "2026.11.21.2",
+  "updated_at": "2026-11-21T14:58:29+08:00",
   "components": {
     "maps": {
       "path": "maps",
@@ -9,6 +9,17 @@
       "chapters": 50,
       "layered_chapters": [],
       "description": "章节地图运行包，普通与困难共用底图；附道路概率缓存和地图投影数据"
+    },
+    "models": {
+      "path": "models/campaign",
+      "version": "2026.11.21.2",
+      "roles": [
+        "scene",
+        "compact",
+        "expanded"
+      ],
+      "description": "自动推图三角色 ONNX 模型及同版本元数据，加载时校验契约与 SHA-256",
+      "bundle_version": "v10-specialists"
     }
   }
 }
